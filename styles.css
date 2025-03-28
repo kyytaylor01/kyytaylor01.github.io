@@ -30,8 +30,29 @@ nav {
     color: #A7754D;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1em;
+    margin: 1em;
+}
+
+.box1 {
+    border: #333 solid;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.box2 {
+    border: #333 solid;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
 footer {
     color: #D4C9BC;
+    text-align: center;
 }
 
 nav a {
@@ -45,8 +66,12 @@ nav a:hover {
         1px 1px 2px #D4C9BC,
         0 0 1em #A7754D,
         0 0 0.2em #D4C9BC;
+    background: #A7754D;
+    color: #333;
     transform: scale(1.15);
-    transition: transform .3s ease;
+    transition: transform .8s ease-out;
+    border-radius: 50%;
+    opacity: 80%;
 }
 
 .profession {

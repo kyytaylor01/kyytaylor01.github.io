@@ -8,3 +8,7 @@ Accent 2: #D4C9BC (Light Beige/Tan)
 Accent 3 (optional): #C3D3C6 (Light Green/Gray)
 Font Pairing: Heading Font: Raleway Body Font: Lato.
 ############################################################
+Hello! This is my personal portfolio website that i created using HTML, CSS, and JS.
+
+ToDo: 
+*Home Page grid layout
